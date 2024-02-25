@@ -7,6 +7,7 @@ bool checkLeapYear(int year);
 bool checkCorrect(const std::vector<int>& dataInt, const bool& leapYear, const std::map<int, int>& year);
 int serialNumberDay(const std::vector<int>& dataInt, const bool& leapYear, const std::map<int, int>& year);
 int daysBirth(const std::vector<int>& dataInt, const bool& leapYear, const std::map<int, int>& year, const int& serialNumber);
+std::string monthNames(const int& month);
 
 int main() {
 
@@ -37,6 +38,10 @@ int main() {
         }
 
     } while (resultCorrect);
+
+    std::string month = monthNames(dataInt.at(1));
+
+    std::cout << "Дата: " << dataInt.at(0) << " " << month << " " << dataInt.at(2) << "г." << std::endl;
 
     if (leapYear) {
 
