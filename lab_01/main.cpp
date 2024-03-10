@@ -10,7 +10,7 @@ int daysBirth(const std::vector<int>& dataInt, const bool& leapYear, const std::
 std::string monthNames(const int& month);
 std::vector<int> indexNumberToDate(const bool& leapYear, int year, int dayOfYear);
 void enterIndexNumberYear(int& year, int& indexNumber, const bool& leapYear);
-
+std::string getHolidays(const std::vector<int>& dataInt);
 
 int main() {
 
@@ -70,6 +70,8 @@ int main() {
     std::vector<int> result = indexNumberToDate(checkLeapYear(yearF), yearF, numberF);
 
     std::cout << "Дата: " << result.at(0) << " " << monthNames(result.at(1)) << " " << result.at(2) << "г." << std::endl;
+
+    std::cout << "Праздник:" << getHolidays(result) << std::endl;
 
     system("pause");
 

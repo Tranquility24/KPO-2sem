@@ -139,6 +139,7 @@
     <ClCompile Include="enter_data.cpp" />
     <ClCompile Include="enter_index_number_year.cpp" />
     <ClCompile Include="error_enter_data.cpp" />
+    <ClCompile Include="get_holidays.cpp" />
     <ClCompile Include="index_number_to_date.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="month_names.cpp" />
