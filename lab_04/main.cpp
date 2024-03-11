@@ -63,7 +63,7 @@ struct Computer {
         
         Computer combined("Combined " + processor + " / " + other.processor,
             graphicsCard + " / " + other.graphicsCard,
-            0, hardDiskSizeGB + other.hardDiskSizeGB);
+            ramSizeGB + other.ramSizeGB , hardDiskSizeGB + other.hardDiskSizeGB);
         return combined;
     }
 
