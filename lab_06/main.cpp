@@ -1,8 +1,6 @@
 #include <iostream>
 #include "stdafx.h"
-
 #include "C:\Applications\Laboratory works\2 sem\Narkevich 2 sem\LaboratoryWorkKPO2sem\lab_06L\Dictionary.h"
-#pragma comment(lib, "C:\Applications\Laboratory works\2 sem\Narkevich 2 sem\LaboratoryWorkKPO2sem\lab_06L\Debug\\lab_06L.lib")
 
 int main() {
 
